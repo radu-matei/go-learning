@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	//"time"
 )
 
 func main() {
@@ -11,6 +12,7 @@ func main() {
 		data++
 	}()
 
+	//time.Sleep(time.Second)
 	if data == 0 {
 		fmt.Printf("the value is: %v", data)
 	}
